@@ -28,10 +28,10 @@ jobs:
             ${{ runner.os }}-cargo-
 
       - name: Build
-        run: cargo build 
+        run: cargo build --release
 
       - name: Upload binary
         uses: actions/upload-artifact@v4
         with:
           name: sol-linux-x86_64
-          path: target/debug/sol
+          path: target/release/sol
