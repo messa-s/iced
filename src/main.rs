@@ -30,7 +30,7 @@ impl Counter {
 
     fn view(&self) -> Column<'_, Message> {
         column![
-            button("Inddskldjsklrement").on_press(Message::Increment),
+            button("Indddhsfjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhksdhdfksskldjskhdsahfkfshlrement").on_press(Message::Increment),
             text(self.value).size(50),
             button("Decrement").on_press(Message::Decrement)
         ]
