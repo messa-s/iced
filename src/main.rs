@@ -32,7 +32,7 @@ impl Counter {
         column![
             button("Indddhsfjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhksdhdfksskldjskhdsahfkfshlrement").on_press(Message::Increment),
             text(self.value).size(50),
-            button("Decrement").on_press(Message::Decrement)
+            button("Desdjhsahdkshfksdhfskjhdfsjkhfkjshfkshkcrement").on_press(Message::Decrement)
         ]
         .padding(20)
         .align_x(Center)
